@@ -34,6 +34,12 @@ ul li {
 .Website-logo a {
   display: block;
 }
+.link:link{
+    color:rgb(128, 0, 0);
+}
+.link:visited{
+    color: rgb(0, 2, 2);
+}
 .image {
  display: inline;
   width: 50%;
