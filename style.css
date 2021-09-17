@@ -1,48 +1,17 @@
-/* Main body */
-.body-to-show {
-  padding: 0.5vw;
-  background-color: rgba(224, 224, 200, 0.62);
-  font-family: "Rosarivo", serif;
+h1{
+    
 }
-/* Header-start */
-#header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+a{  font-style:italic;
+    text-transform:uppercase;
+    text-decoration: none;
 }
-@media (max-width: 425px) {
-  #header {
-    flex-direction: column;
-  }
+img{
+    width: 30%;
+    float: left;
 }
-@media (max-width: 700px) {
-    #header {
-      flex-direction: column;
-    }
-  }
-/* Website-logo-start */
-.Website-logo {
-  background-color: rgba(243, 97, 13, 0.62);
-  display: flex;
-  border-radius: 50px;
+/* Body-to-show */
+#body-to-show{
+    margin: 0;
+    font-family: 'Rosarivo', sans-serif;
+    background-color:rgb(148, 148, 248);
 }
-.Website-logo a {
-  display: block;
-}
-.link:link{
-    color:rgb(128, 0, 0);
-}
-.link:visited{
-    color: rgb(0, 2, 2);
-}
-.image {
- display: inline;
-  width: 50%;
-  padding: 20px;
-  /* background-color: rgba(6, 56, 97, 0.62); */
-}
-.image img {
-  width: 20%;
-  border-radius: 55%;
-}
-/* Website-logo-end */
