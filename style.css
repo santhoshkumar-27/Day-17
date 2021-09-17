@@ -1,8 +1,3 @@
-ul li {
-  display: inline;
-  list-style-type: none;
-}
-
 /* Main body */
 .body-to-show {
   padding: 0.5vw;
@@ -51,49 +46,3 @@ ul li {
   border-radius: 55%;
 }
 /* Website-logo-end */
-/* Website-name-start */
-.website-name{
-    width: 50%
-}
-.website-name a{
-    text-decoration: none;
-    padding: 0 2vw 0 0;
-}
-/* Website-name-end */
-
-/* Nav-bar-start */
-.website-container {
-  border-radius: 4px;
-  background-color: teal;
-  
-}
-.list {
-    padding: 0;
-  display: flex;
-  /* flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: flex-start; */
-}
-.nav-list {
-  margin: 10px;
-  padding: 10px;
-  border: 0px;
-  color: black;
-  text-transform: capitalize;
-  text-decoration: none;
-  line-height: 2em;
-  background-color: cornflowerblue;
-  border-radius: 1%;
-}
-
-.nav-list:hover {
-  font-weight: 800;
-  border-top: 0.3vw;
-  border-color: rgb(0, 255, 85);
-  border-style: solid;
-  color: white;
-  background-color: black;
-}
-
-/* Nav-bar-end */
